@@ -36,11 +36,11 @@ main_page_head = '''
             height: 100%;
         }
         .movie-tile {
-            margin-bottom: 20px;
+            margin-bottom: 20x;
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: #add8e6;
             cursor: pointer;
         }
         .scale-media {
@@ -56,10 +56,16 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
+        h2 {
+            font-size: 20px;
+        }
+        .navbar-inverse .navbar-brand {
+            color: white;
+        }
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
-        $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
+         $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
             // Remove the src so the player itself gets removed, as this is the only
             // reliable way to ensure the video stops playing in IE
             $("#trailer-video-container").empty();
@@ -107,7 +113,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Connor's Favorite Movies</a>
           </div>
         </div>
       </div>

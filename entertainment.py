@@ -1,7 +1,7 @@
 import fresh_tomatoes
 import trailers
 
-star_wars = trailers.Movie("Star Wars: TFA",
+star_wars = trailers.Movie("Star Wars: The Force Awakens",
                            "Three decades after the defeat of the Galactic Empire, a new threat arises. The First Order attempts to rule the galaxy and only a ragtag group of heroes can stop them, along with the help of the Resistance.",
                            "http://vignette2.wikia.nocookie.net/starwars/images/f/fd/Star_Wars_Episode_VII_The_Force_Awakens.jpg/revision/latest?cb=20151018162823",
                            "https://www.youtube.com/watch?v=sGbxmsDFVnE")
